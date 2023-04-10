@@ -35,15 +35,15 @@
 /area/site53/uez/bridge)
 "ag" = (
 /obj/effect/paint_stripe/red,
-/turf/simulated/wall/concrete,
+/turf/simulated/wall/prepainted,
 /area/site53/surface/surface)
 "ah" = (
 /obj/effect/paint_stripe/orange,
-/turf/simulated/wall/concrete,
+/turf/simulated/wall/prepainted,
 /area/site53/upper_surface/commstower)
 "ai" = (
 /obj/effect/paint_stripe/white,
-/turf/simulated/wall/concrete,
+/turf/simulated/wall/prepainted,
 /area/site53/uez/bridge)
 "aj" = (
 /obj/effect/landmark/map_data{
@@ -1271,7 +1271,7 @@
 /area/site53/uez/substation)
 "dv" = (
 /obj/effect/paint_stripe/yellow,
-/turf/simulated/wall/concrete,
+/turf/simulated/wall/prepainted,
 /area/site53/uez/maintenance)
 "dw" = (
 /obj/machinery/light{
@@ -3817,7 +3817,7 @@
 "kD" = (
 /obj/machinery/status_display/supply_display,
 /obj/effect/paint_stripe/orange,
-/turf/simulated/wall/concrete,
+/turf/simulated/wall/prepainted,
 /area/site53/upper_surface/commstower)
 "kE" = (
 /obj/machinery/light,
@@ -4471,7 +4471,7 @@
 "Cj" = (
 /obj/effect/paint_stripe/red,
 /obj/effect/paint_stripe/red,
-/turf/simulated/wall/concrete,
+/turf/simulated/wall/prepainted,
 /area/site53/entrancezone/forensics)
 "Cq" = (
 /obj/effect/floor_decal/corner/orange/border{
@@ -4616,7 +4616,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/wall/concrete,
+/turf/simulated/wall/prepainted,
 /area/site53/uez/maintenance)
 "HF" = (
 /obj/effect/paint_stripe/blue,
@@ -4671,7 +4671,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/wall/concrete,
+/turf/simulated/wall/prepainted,
 /area/site53/entrancezone/forensics)
 "Iy" = (
 /obj/structure/table/standard,
@@ -4681,7 +4681,7 @@
 /area/site53/uez/hallway)
 "IV" = (
 /obj/effect/paint_stripe/white,
-/turf/simulated/wall/concrete,
+/turf/simulated/wall/prepainted,
 /area/site53/entrancezone/forensics)
 "JN" = (
 /obj/structure/table/standard,
@@ -4726,7 +4726,7 @@
 /area/site53/uez/hallway)
 "Mm" = (
 /obj/effect/paint_stripe/red,
-/turf/simulated/wall/concrete,
+/turf/simulated/wall/prepainted,
 /area/site53/entrancezone/forensics)
 "MG" = (
 /obj/structure/bed/chair/comfy/red{

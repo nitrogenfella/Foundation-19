@@ -193,6 +193,11 @@
 /turf/simulated/wall/concrete/New(newloc)
 	..(newloc, "concrete1")
 
+/turf/simulated/wall/concrete/on_update_icon()
+	. = ..()
+	stripe_color = null
+	update_icon()
+
 /material/steel/concrete
 	name = "concrete1"
 	icon_base = "_solid"
