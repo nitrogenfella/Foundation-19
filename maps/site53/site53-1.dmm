@@ -36,7 +36,6 @@
 /turf/simulated/floor/plating,
 /area/site53/engineering/maintenance/llczmaint)
 "ad" = (
-/obj/effect/paint_stripe/white,
 /turf/simulated/wall/r_wall/prepainted,
 /area/site53/lowertram/archive)
 "ae" = (
@@ -206,8 +205,6 @@
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/effect/paint_stripe/gray,
-/obj/effect/paint_stripe/red,
 /turf/simulated/wall/titanium,
 /area/site53/llcz/maintenance)
 "aC" = (
@@ -302,7 +299,6 @@
 	},
 /area/site53/llcz/mine/unexplored)
 "aN" = (
-/obj/effect/paint_stripe/white,
 /turf/simulated/wall/titanium,
 /area/site53/engineering/maintenance/llczmaint)
 "aO" = (
@@ -341,7 +337,6 @@
 /area/site53/lowertram/archive)
 "aS" = (
 /obj/machinery/nuke_cylinder_dispenser,
-/obj/effect/paint_stripe/gunmetal,
 /turf/simulated/wall/titanium,
 /area/site53/engineering/selfdestruct)
 "aT" = (
@@ -374,21 +369,8 @@
 /obj/item/folder/yellow,
 /turf/simulated/floor/wood/walnut,
 /area/site53/lowertram/archive)
-"aW" = (
-/obj/effect/paint_stripe/white,
-/turf/simulated/wall/prepainted,
-/area/site53/lowertram/archive)
-"aX" = (
-/obj/effect/paint_stripe/brown,
-/turf/simulated/wall/prepainted,
-/area/site53/lowertram/archive)
 "aY" = (
-/obj/effect/paint_stripe/red,
-/turf/simulated/wall/prepainted,
-/area/site53/lowertram/archive)
-"aZ" = (
-/obj/effect/paint_stripe/paleblue,
-/turf/simulated/wall/prepainted,
+/turf/simulated/wall/concrete,
 /area/site53/lowertram/archive)
 "ba" = (
 /obj/structure/table/reinforced,
@@ -494,7 +476,6 @@
 /turf/simulated/floor/tiled/monotile/white,
 /area/site53/llcz/hallways)
 "bk" = (
-/obj/effect/paint_stripe/gray,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -741,15 +722,6 @@
 	},
 /turf/simulated/floor/tiled/monotile/white,
 /area/site53/llcz/dclass/entrance_checkpoint)
-"bH" = (
-/obj/machinery/button/blast_door{
-	id_tag = "D-Class Reward Room";
-	name = "D-Class Reward Room";
-	req_access = list("ACCESS_SECURITY_LEVEL2")
-	},
-/obj/effect/paint_stripe/orange,
-/turf/simulated/wall/titanium,
-/area/site53/llcz/dclass/luxuryhall)
 "bI" = (
 /turf/simulated/wall/titanium,
 /area/site53/llcz/dclass/luxuryhall)
@@ -782,11 +754,6 @@
 /obj/structure/table/standard,
 /turf/simulated/floor/tiled,
 /area/site53/lhcz/scp049containment)
-"bO" = (
-/obj/effect/paint_stripe/gray,
-/obj/effect/paint_stripe/red,
-/turf/simulated/wall/titanium,
-/area/site53/llcz/maintenance)
 "bP" = (
 /obj/structure/cable{
 	d1 = 2;
@@ -1125,13 +1092,11 @@
 /turf/simulated/floor,
 /area/site53/llcz/dclass/assignmentbubble)
 "cB" = (
-/obj/effect/paint_stripe/gray,
 /obj/machinery/button/blast_door{
 	id_tag = "LCZ Checkpoint Cubicle 1";
 	name = "LCZ Checkpoint Cubicle 1";
 	req_access = list("ACCESS_SECURITY_LEVEL2")
 	},
-/obj/effect/paint_stripe/red,
 /turf/simulated/wall/titanium,
 /area/site53/llcz/dclass/entrance_checkpoint)
 "cC" = (
@@ -1166,13 +1131,11 @@
 /turf/simulated/floor/tiled/monotile/white,
 /area/site53/llcz/hallways)
 "cG" = (
-/obj/effect/paint_stripe/gray,
 /obj/machinery/button/blast_door{
 	id_tag = "LCZ Checkpoint Cubicle 2";
 	name = "LCZ Checkpoint Cubicle 2";
 	req_access = list("ACCESS_SECURITY_LEVEL2")
 	},
-/obj/effect/paint_stripe/red,
 /turf/simulated/wall/titanium,
 /area/site53/llcz/dclass/entrance_checkpoint)
 "cH" = (
@@ -1253,10 +1216,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/site53/llcz/dclass/medicalpost/morgue)
-"cQ" = (
-/obj/effect/paint_stripe/gray,
-/turf/simulated/wall/prepainted,
-/area/site53/llcz/hallways)
 "cR" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -1339,7 +1298,6 @@
 /turf/simulated/floor/tiled/monotile/white,
 /area/site53/llcz/dclass/primaryhallway)
 "cY" = (
-/obj/effect/paint_stripe/gray,
 /turf/simulated/wall/titanium,
 /area/site53/llcz/dclass/cellbubble)
 "cZ" = (
@@ -1488,7 +1446,6 @@
 /turf/simulated/floor/wood/maple,
 /area/site53/llcz/dclass/luxurysleep)
 "dk" = (
-/obj/effect/paint_stripe/gray,
 /turf/simulated/wall/titanium,
 /area/site53/llcz/dclass/checkequip)
 "dl" = (
@@ -1536,7 +1493,6 @@
 /turf/simulated/floor,
 /area/site53/llcz/dclass/cells)
 "dq" = (
-/obj/effect/paint_stripe/orange,
 /turf/simulated/wall/titanium,
 /area/site53/llcz/dclass/kitchen)
 "dr" = (
@@ -1944,7 +1900,6 @@
 /turf/simulated/floor/tiled/monotile/white,
 /area/site53/llcz/dclass/entrance_checkpoint)
 "en" = (
-/obj/effect/paint_stripe/orange,
 /turf/simulated/wall/titanium,
 /area/site53/llcz/dclass/briefing)
 "eo" = (
@@ -2085,7 +2040,6 @@
 	id_tag = "Reeducation Cremator";
 	req_access = list(list("ACCESS_SECURITY_LEVEL2","ACCESS_MEDICAL_LEVEL2"))
 	},
-/obj/effect/paint_stripe/gray,
 /turf/simulated/wall/titanium,
 /area/site53/llcz/dclass/reeducation)
 "eD" = (
@@ -2312,7 +2266,6 @@
 /turf/simulated/floor/tiled/monotile,
 /area/site53/llcz/mining/miningops)
 "fd" = (
-/obj/effect/paint_stripe/orange,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -2405,7 +2358,6 @@
 /turf/simulated/floor,
 /area/site53/llcz/dclass/checkpoint)
 "fm" = (
-/obj/effect/paint_stripe/gray,
 /obj/machinery/button/blast_door{
 	id_tag = "DCZ Entrance Lockdown";
 	name = "DCZ Entrance Lockdown";
@@ -2414,7 +2366,6 @@
 /turf/simulated/wall/titanium,
 /area/site53/llcz/hallways)
 "fn" = (
-/obj/effect/paint_stripe/white,
 /obj/machinery/button/blast_door{
 	id_tag = "Lower LCZ Maint Access";
 	name = "Lower LCZ Maint Access";
@@ -2423,7 +2374,6 @@
 /turf/simulated/wall/titanium,
 /area/site53/engineering/maintenance/llczmaint)
 "fo" = (
-/obj/effect/paint_stripe/orange,
 /turf/simulated/wall/titanium,
 /area/site53/llcz/dclass/botany)
 "fp" = (
@@ -2455,7 +2405,6 @@
 /turf/simulated/floor/tiled/monotile,
 /area/site53/llcz/dclass/kitchenbotanybubble)
 "fs" = (
-/obj/effect/paint_stripe/gray,
 /turf/simulated/wall/titanium,
 /area/site53/llcz/dclass/shower)
 "ft" = (
@@ -2516,7 +2465,6 @@
 /turf/simulated/floor/tiled/monotile,
 /area/site53/uhcz/scp8containment)
 "fA" = (
-/obj/effect/paint_stripe/gray,
 /turf/simulated/wall/titanium,
 /area/site53/llcz/dclass/kitchenbotanybubble)
 "fB" = (
@@ -2576,7 +2524,6 @@
 /turf/simulated/floor/tiled/monotile/white,
 /area/site53/llcz/dclass/kitchen)
 "fI" = (
-/obj/effect/paint_stripe/gray,
 /obj/structure/cable/green{
 	d1 = 4;
 	d2 = 8;
@@ -2817,8 +2764,7 @@
 /turf/simulated/floor/tiled/monotile/white,
 /area/site53/llcz/dclass/kitchen)
 "gm" = (
-/obj/effect/paint_stripe/white,
-/turf/simulated/wall/prepainted,
+/turf/simulated/wall/concrete,
 /area/site53/llcz/mine/unexplored)
 "gp" = (
 /obj/machinery/cooker/cereal,
@@ -2930,7 +2876,6 @@
 /turf/simulated/floor/tiled/monotile/white,
 /area/site53/llcz/dclass/kitchen)
 "gF" = (
-/obj/effect/paint_stripe/orange,
 /turf/simulated/wall/titanium,
 /area/site53/llcz/dclass/canteen)
 "gG" = (
@@ -2967,7 +2912,6 @@
 	id_tag = "Reeducation Cremator 2";
 	req_access = list(list("ACCESS_SECURITY_LEVEL2","ACCESS_MEDICAL_LEVEL2"))
 	},
-/obj/effect/paint_stripe/gray,
 /turf/simulated/wall/titanium,
 /area/site53/llcz/dclass/reeducation)
 "gL" = (
@@ -2976,10 +2920,6 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/site53/lowertram/archive)
-"gM" = (
-/obj/effect/paint_stripe/gray,
-/turf/simulated/wall/titanium,
-/area/site53/llcz/dclass/assignmentbubble)
 "gN" = (
 /obj/structure/closet/crate/large,
 /obj/effect/floor_decal/industrial/outline/grey,
@@ -3127,12 +3067,10 @@
 /turf/simulated/floor/tiled/old_tile,
 /area/site53/llcz/mining/miningops)
 "hj" = (
-/obj/effect/paint_stripe/orange,
 /obj/structure/disposalpipe/segment,
 /turf/simulated/wall/titanium,
 /area/site53/llcz/mining/miningops)
 "hk" = (
-/obj/effect/paint_stripe/orange,
 /turf/simulated/wall/titanium,
 /area/site53/llcz/mining/miningops)
 "hl" = (
@@ -3304,11 +3242,9 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/effect/paint_stripe/gray,
 /turf/simulated/wall/titanium,
 /area/site53/llcz/dclass/janitorial)
 "hI" = (
-/obj/effect/paint_stripe/gunmetal,
 /turf/simulated/wall/titanium,
 /area/site53/engineering/lowernukeladders)
 "hJ" = (
@@ -3724,7 +3660,7 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
-/turf/simulated/wall/prepainted,
+/turf/simulated/wall/concrete,
 /area/site53/lowertram/archive)
 "iA" = (
 /turf/simulated/floor/tiled/monotile,
@@ -3980,10 +3916,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/site53/llcz/dclass/reeducation)
-"jb" = (
-/obj/effect/paint_stripe/gray,
-/turf/simulated/wall/titanium,
-/area/site53/llcz/dclass/prep)
 "jc" = (
 /turf/simulated/floor/lino,
 /area/site53/llcz/dclass/canteen)
@@ -4021,8 +3953,6 @@
 /turf/simulated/floor/lino,
 /area/site53/llcz/dclass/canteen)
 "ji" = (
-/obj/effect/paint_stripe/gray,
-/obj/effect/paint_stripe/red,
 /obj/machinery/button/blast_door{
 	id_tag = "Emergency Shotguns";
 	name = "Emergency Shotguns";
@@ -4435,7 +4365,6 @@
 /turf/simulated/floor/lino,
 /area/site53/llcz/dclass/canteen)
 "kg" = (
-/obj/effect/paint_stripe/orange,
 /turf/simulated/wall/titanium,
 /area/site53/llcz/dclass/luxurylibrary)
 "kh" = (
@@ -4592,7 +4521,6 @@
 /turf/simulated/floor/tiled/old_tile,
 /area/site53/llcz/mining/miningops)
 "kA" = (
-/obj/effect/paint_stripe/orange,
 /obj/structure/disposalpipe/segment{
 	dir = 1;
 	icon_state = "pipe-c"
@@ -4705,7 +4633,6 @@
 /turf/simulated/floor/tiled/monotile,
 /area/site53/llcz/dclass/cellbubble)
 "kO" = (
-/obj/effect/paint_stripe/gray,
 /turf/simulated/wall/titanium,
 /area/site53/llcz/dclass/janitorial)
 "kP" = (
@@ -4743,11 +4670,9 @@
 /turf/simulated/floor/tiled/old_tile,
 /area/site53/llcz/dclass/shower)
 "kT" = (
-/obj/effect/paint_stripe/orange,
 /turf/simulated/wall/titanium,
 /area/site53/llcz/dclass/recreationhallway)
 "kU" = (
-/obj/effect/paint_stripe/gray,
 /turf/simulated/wall/titanium,
 /area/site53/llcz/dclass/canteenbubble)
 "kV" = (
@@ -5051,7 +4976,6 @@
 /turf/simulated/floor/lino,
 /area/site53/llcz/dclass/canteen)
 "lG" = (
-/obj/effect/paint_stripe/gray,
 /turf/simulated/wall/titanium,
 /area/site53/llcz/dclass/reeducation)
 "lH" = (
@@ -5261,7 +5185,6 @@
 /turf/simulated/floor,
 /area/site53/engineering/maintenance/lowerselfdestruct)
 "mh" = (
-/obj/effect/paint_stripe/gunmetal,
 /turf/simulated/wall/titanium,
 /area/site53/engineering/maintenance/lowerselfdestruct)
 "mi" = (
@@ -5330,7 +5253,6 @@
 /turf/simulated/floor,
 /area/site53/engineering/maintenance/lowerselfdestruct)
 "mo" = (
-/obj/effect/paint_stripe/gunmetal,
 /turf/simulated/wall/titanium,
 /area/site53/engineering/selfdestruct)
 "mp" = (
@@ -6048,7 +5970,6 @@
 /turf/simulated/floor,
 /area/site53/uhcz/scp106parts)
 "nU" = (
-/obj/effect/paint_stripe/orange,
 /obj/machinery/button/blast_door{
 	id_tag = "D-Class Breakroom";
 	name = "D-Class Breakroom";
@@ -6226,7 +6147,6 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/site53/uhcz/scp106parts)
 "ot" = (
-/obj/effect/paint_stripe/yellow,
 /turf/simulated/wall/titanium,
 /area/site53/uhcz/scp106parts)
 "ou" = (
@@ -6238,7 +6158,6 @@
 /turf/simulated/floor,
 /area/site53/uhcz/scp106parts)
 "ov" = (
-/obj/effect/paint_stripe/red,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -6278,7 +6197,6 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/obj/effect/paint_stripe/red,
 /turf/simulated/floor/tiled/monotile,
 /area/site53/llcz/scp500)
 "oA" = (
@@ -6961,11 +6879,10 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/site53/lhcz/maintenance)
 "ql" = (
-/obj/effect/paint_stripe/gray,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/wall/prepainted,
+/turf/simulated/wall/concrete,
 /area/site53/llcz/hallways)
 "qm" = (
 /obj/machinery/door/airlock/highsecurity{
@@ -6981,7 +6898,6 @@
 /turf/simulated/floor,
 /area/site53/lhcz/scp049containment)
 "qn" = (
-/obj/effect/paint_stripe/red,
 /turf/simulated/wall/titanium,
 /area/site53/lhcz/hallway)
 "qo" = (
@@ -7045,7 +6961,6 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/site53/lhcz/maintenance)
 "qu" = (
-/obj/effect/paint_stripe/gray,
 /turf/simulated/wall/titanium,
 /area/site53/llcz/dclass/isolation)
 "qv" = (
@@ -7110,7 +7025,7 @@
 	name = "Level 1 Clearance Shelf";
 	req_access = list("ACCESS_SCIENCE_LEVEL1")
 	},
-/turf/simulated/wall/prepainted,
+/turf/simulated/wall/concrete,
 /area/site53/lowertram/archive)
 "qC" = (
 /obj/machinery/camera/autoname{
@@ -7340,10 +7255,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/site53/lhcz/maintenance)
-"ra" = (
-/obj/effect/paint_stripe/red,
-/turf/simulated/wall/titanium,
-/area/site53/uhcz/scp106parts)
 "rb" = (
 /obj/machinery/vending/cola,
 /turf/simulated/floor/tiled/monotile,
@@ -7623,7 +7534,6 @@
 /turf/simulated/floor/tiled/monotile,
 /area/site53/llcz/dclass/assignmentbubble)
 "rQ" = (
-/obj/effect/paint_stripe/gray,
 /turf/simulated/wall/titanium,
 /area/site53/llcz/dclass/checkpointoverlook)
 "rR" = (
@@ -7784,10 +7694,6 @@
 	},
 /turf/simulated/floor/tiled/monotile/white,
 /area/site53/llcz/dclass/medicalpost)
-"sf" = (
-/obj/effect/paint_stripe/gray,
-/turf/simulated/wall/titanium,
-/area/site53/llcz/dclass/checkpoint)
 "sh" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -7949,7 +7855,6 @@
 /turf/simulated/floor,
 /area/site53/uhcz/scp106parts)
 "sF" = (
-/obj/effect/paint_stripe/yellow,
 /turf/simulated/wall/titanium,
 /area/site53/lhcz/scp895)
 "sG" = (
@@ -7969,7 +7874,6 @@
 /turf/simulated/floor/lino,
 /area/site53/lhcz/scp049containment)
 "sJ" = (
-/obj/effect/paint_stripe/red,
 /turf/simulated/wall/titanium,
 /area/site53/lhcz/scp1102room)
 "sK" = (
@@ -8158,7 +8062,6 @@
 /turf/simulated/floor/tiled/old_tile,
 /area/site53/lhcz/scp049containment)
 "tj" = (
-/obj/effect/paint_stripe/orange,
 /turf/simulated/wall/titanium,
 /area/site53/llcz/dclass/cells)
 "tk" = (
@@ -8375,9 +8278,6 @@
 /turf/simulated/floor/tiled/monotile/white,
 /area/site53/llcz/dclass/checkpoint)
 "tR" = (
-/obj/effect/paint_stripe/gray,
-/obj/effect/paint_stripe/red,
-/obj/effect/paint_stripe/red,
 /turf/simulated/wall/titanium,
 /area/site53/llcz/dclass/entrance_checkpoint)
 "tS" = (
@@ -8870,7 +8770,6 @@
 /turf/simulated/floor,
 /area/site53/llcz/dclass/checkpoint)
 "vf" = (
-/obj/effect/paint_stripe/red,
 /obj/structure/sign/scp/topside/SecureArealv4mtf,
 /turf/simulated/wall/titanium,
 /area/site53/llcz/scp500)
@@ -8922,8 +8821,7 @@
 /area/site53/lhcz/scp049containment)
 "vj" = (
 /obj/structure/disposalpipe/segment,
-/obj/effect/paint_stripe/gray,
-/turf/simulated/wall/prepainted,
+/turf/simulated/wall/concrete,
 /area/site53/llcz/hallways)
 "vk" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -9019,7 +8917,6 @@
 /turf/simulated/floor/tiled/monotile,
 /area/site53/llcz/dclass/cells)
 "vx" = (
-/obj/effect/paint_stripe/orange,
 /turf/simulated/wall/titanium,
 /area/site53/llcz/mine/explored)
 "vy" = (
@@ -9726,7 +9623,6 @@
 /turf/simulated/floor/tiled/monotile,
 /area/site53/llcz/dclass/canteenbubble)
 "xe" = (
-/obj/effect/paint_stripe/red,
 /turf/simulated/wall/titanium,
 /area/site53/uhcz/scp8containment)
 "xf" = (
@@ -9810,19 +9706,6 @@
 /obj/machinery/photocopier,
 /turf/simulated/floor/tiled/monotile,
 /area/site53/llcz/dclass/assignmentbubble)
-"xo" = (
-/obj/effect/paint_stripe/red,
-/obj/effect/wallframe_spawn/reinforced/titanium,
-/obj/machinery/door/blast/shutters/open{
-	id_tag = "Kitchen Bubble Shutter";
-	name = "Kitchen Bubble Shutter"
-	},
-/turf/simulated/floor/tiled/monotile,
-/area/site53/llcz/dclass/canteenbubble)
-"xp" = (
-/obj/effect/paint_stripe/orange,
-/turf/simulated/wall/titanium,
-/area/site53/llcz/mine/unexplored)
 "xq" = (
 /obj/machinery/papershredder,
 /turf/simulated/floor/tiled/monotile,
@@ -9899,7 +9782,6 @@
 /turf/simulated/floor,
 /area/site53/llcz/dclass/luxuryhall)
 "xz" = (
-/obj/effect/paint_stripe/white,
 /obj/structure/sign/directions/lcz{
 	dir = 8
 	},
@@ -10036,7 +9918,6 @@
 /turf/simulated/floor/tiled/monotile/white,
 /area/site53/llcz/dclass/medicalpost)
 "xV" = (
-/obj/effect/paint_stripe/gray,
 /turf/simulated/wall/titanium,
 /area/site53/llcz/dclass/assignmentline)
 "xW" = (
@@ -10167,10 +10048,6 @@
 	},
 /turf/simulated/floor/tiled/monotile/white,
 /area/site53/llcz/dclass/luxuryhall)
-"yo" = (
-/obj/effect/paint_stripe/orange,
-/turf/simulated/wall/titanium,
-/area/site53/llcz/dclass/luxuryhall)
 "yr" = (
 /obj/structure/railing/mapped,
 /turf/simulated/floor/plating,
@@ -10212,7 +10089,6 @@
 /turf/simulated/floor/tiled/monotile/white,
 /area/site53/llcz/dclass/cells)
 "yC" = (
-/obj/effect/paint_stripe/orange,
 /obj/machinery/button/blast_door{
 	id_tag = "D-Class Reward Room";
 	name = "D-Class Reward Room";
@@ -10421,18 +10297,12 @@
 /turf/simulated/floor/tiled/monotile,
 /area/site53/lhcz/scp1102room)
 "zp" = (
-/obj/effect/paint_stripe/orange,
 /turf/simulated/wall/titanium,
 /area/site53/llcz/dclass/cryo)
 "zq" = (
 /obj/item/modular_computer/laptop,
 /turf/simulated/floor/tiled/old_tile,
 /area/site53/llcz/mine/unexplored)
-"zr" = (
-/obj/effect/paint_stripe/red,
-/obj/effect/paint_stripe/red,
-/turf/simulated/wall/titanium,
-/area/site53/lhcz/scp049containment)
 "zs" = (
 /obj/machinery/light{
 	dir = 4;
@@ -10885,7 +10755,6 @@
 /turf/simulated/floor/tiled/monotile,
 /area/site53/lhcz/scp1102room)
 "AE" = (
-/obj/effect/paint_stripe/red,
 /obj/structure/sign/warning/caution,
 /turf/simulated/wall/titanium,
 /area/site53/uhcz/scp8containment)
@@ -11092,8 +10961,6 @@
 /turf/simulated/floor/tiled/monotile/white,
 /area/site53/llcz/dclass/medicalpost)
 "Bi" = (
-/obj/effect/paint_stripe/red,
-/obj/effect/paint_stripe/red,
 /turf/simulated/wall/titanium,
 /area/site53/llcz/scp500)
 "Bk" = (
@@ -11937,7 +11804,6 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/effect/paint_stripe/gray,
 /turf/simulated/wall/titanium,
 /area/site53/llcz/dclass/checkpoint)
 "DB" = (
@@ -11970,7 +11836,6 @@
 /turf/simulated/floor/tiled/monotile,
 /area/site53/llcz/dclass/cellbubble)
 "DF" = (
-/obj/effect/paint_stripe/orange,
 /obj/structure/disposalpipe/segment{
 	dir = 2;
 	icon_state = "pipe-c"
@@ -12280,9 +12145,7 @@
 /turf/simulated/floor,
 /area/site53/surface)
 "Ev" = (
-/obj/effect/paint_stripe/gray,
-/obj/effect/paint_stripe/red,
-/turf/simulated/wall/prepainted,
+/turf/simulated/wall/concrete,
 /area/site53/llcz/hallways)
 "Ew" = (
 /obj/effect/floor_decal/corner/red/border{
@@ -12510,9 +12373,6 @@
 /turf/simulated/floor/tiled/monotile,
 /area/site53/llcz/dclass/assignmentbubble)
 "Fd" = (
-/obj/effect/paint_stripe/gray,
-/obj/effect/paint_stripe/red,
-/obj/effect/paint_stripe/red,
 /turf/simulated/wall/titanium,
 /area/site53/llcz/maintenance)
 "Fg" = (
@@ -12832,7 +12692,6 @@
 /turf/simulated/floor,
 /area/site53/llcz/dclass/cellbubble)
 "FY" = (
-/obj/effect/paint_stripe/gray,
 /obj/structure/reagent_dispensers/peppertank,
 /turf/simulated/wall/titanium,
 /area/site53/llcz/dclass/cellbubble)
@@ -13410,7 +13269,6 @@
 /turf/simulated/floor/tiled/monotile/white,
 /area/site53/llcz/dclass/assignment)
 "HJ" = (
-/obj/effect/paint_stripe/gray,
 /turf/simulated/wall/titanium,
 /area/site53/llcz/dclass/assignment)
 "HK" = (
@@ -14113,13 +13971,12 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/site53/uhcz/scp106parts)
 "Jt" = (
-/obj/effect/paint_stripe/white,
 /obj/machinery/button/blast_door{
 	id_tag = "Lower LCZ Maint Access";
 	name = "Lower LCZ Maint Access";
 	req_access = list("ACCESS_ENGINEERING_LEVEL1","ACCESS_ADMIN_LEVEL2")
 	},
-/turf/simulated/wall/prepainted,
+/turf/simulated/wall/concrete,
 /area/site53/lowertram/archive)
 "Ju" = (
 /obj/machinery/door/blast/regular{
@@ -14131,7 +13988,6 @@
 /turf/simulated/floor/tiled/monotile/white,
 /area/site53/llcz/dclass/recreationhallway)
 "Jv" = (
-/obj/effect/paint_stripe/orange,
 /obj/machinery/button/blast_door{
 	id_tag = "Botany Access";
 	name = "Botany Access";
@@ -14538,13 +14394,6 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/site53/llcz/dclass/kitchenbotanybubble)
-"Ko" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/effect/paint_stripe/gray,
-/turf/simulated/wall/titanium,
-/area/site53/llcz/mining/miningops)
 "Kp" = (
 /obj/machinery/door/airlock/hatch/maintenance{
 	name = "SCP-106 Maintenance";
@@ -14740,8 +14589,6 @@
 /turf/simulated/floor/tiled/monotile,
 /area/site53/llcz/scp500)
 "KU" = (
-/obj/effect/paint_stripe/gray,
-/obj/effect/paint_stripe/red,
 /turf/simulated/wall/titanium,
 /area/site53/llcz/hallways)
 "KZ" = (
@@ -14949,7 +14796,6 @@
 /turf/simulated/floor/plating,
 /area/site53/llcz/dclass/luxuryhall)
 "LA" = (
-/obj/effect/paint_stripe/red,
 /obj/structure/sign/warning/biohazard,
 /turf/simulated/wall/titanium,
 /area/site53/uhcz/scp8containment)
@@ -15520,7 +15366,6 @@
 /turf/simulated/floor/tiled/monotile/white,
 /area/site53/llcz/dclass/medicalpost)
 "Nt" = (
-/obj/effect/paint_stripe/white,
 /turf/simulated/wall/titanium,
 /area/site53/lowertram/archive)
 "Nv" = (
@@ -15710,12 +15555,6 @@
 	},
 /turf/simulated/floor/tiled/monotile/white,
 /area/site53/llcz/dclass/medicalpost)
-"NV" = (
-/obj/effect/paint_stripe/gray,
-/obj/effect/paint_stripe/red,
-/obj/effect/paint_stripe/red,
-/turf/simulated/wall/titanium,
-/area/site53/llcz/hallways)
 "NW" = (
 /obj/effect/catwalk_plated/dark,
 /obj/structure/railing/mapped,
@@ -15934,10 +15773,6 @@
 /obj/effect/floor_decal/corner/red/border,
 /turf/simulated/floor/tiled/monotile/white,
 /area/site53/llcz/dclass/checkequip)
-"OH" = (
-/obj/effect/paint_stripe/gray,
-/turf/simulated/wall/titanium,
-/area/site53/llcz/dclass/cryo)
 "OI" = (
 /obj/structure/table/standard,
 /obj/item/material/minihoe,
@@ -15955,7 +15790,6 @@
 /turf/simulated/floor/tiled/monotile,
 /area/site53/lhcz/scp1102room)
 "OK" = (
-/obj/effect/paint_stripe/red,
 /obj/structure/sign/warning,
 /turf/simulated/wall/titanium,
 /area/site53/uhcz/scp8containment)
@@ -16267,7 +16101,6 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/site53/llcz/dclass/medicalpost/surgery)
 "PE" = (
-/obj/effect/paint_stripe/gray,
 /turf/simulated/wall/titanium,
 /area/site53/llcz/dclass/checkcryo)
 "PF" = (
@@ -17340,7 +17173,6 @@
 /turf/simulated/floor/tiled/monotile/white,
 /area/site53/llcz/dclass/medicalpost)
 "SV" = (
-/obj/effect/paint_stripe/red,
 /turf/simulated/wall/titanium,
 /area/site53/lhcz/scp049containment)
 "SW" = (
@@ -17463,11 +17295,6 @@
 /obj/effect/catwalk_plated/white,
 /turf/simulated/floor,
 /area/site53/llcz/hallways)
-"Tm" = (
-/obj/effect/paint_stripe/gray,
-/obj/effect/paint_stripe/gray,
-/turf/simulated/wall/titanium,
-/area/site53/llcz/dclass/checkequip)
 "Tn" = (
 /obj/machinery/door/airlock/glass/civilian{
 	id_tag = "sec7bed";
@@ -17493,7 +17320,6 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/site53/llcz/dclass/medicalpost/surgery)
 "Tq" = (
-/obj/effect/paint_stripe/red,
 /obj/machinery/button/blast_door{
 	id_tag = "SCP 008 Storage";
 	name = "SCP 008 Storage"
@@ -17957,7 +17783,6 @@
 /turf/simulated/floor/tiled/monotile,
 /area/site53/llcz/dclass/luxurysleep)
 "UT" = (
-/obj/effect/paint_stripe/orange,
 /turf/simulated/wall/titanium,
 /area/site53/llcz/dclass/assignmentbubble)
 "UU" = (
@@ -19079,7 +18904,6 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/site53/uhcz/scp8containment)
 "Yg" = (
-/obj/effect/paint_stripe/red,
 /turf/simulated/wall/titanium,
 /area/site53/lhcz/maintenance)
 "Yh" = (
@@ -19379,11 +19203,6 @@
 /obj/structure/railing/mapped,
 /turf/simulated/floor/tiled/white,
 /area/site53/uhcz/scp8containment)
-"YX" = (
-/obj/effect/paint_stripe/gray,
-/obj/effect/paint_stripe/red,
-/turf/simulated/wall/titanium,
-/area/site53/llcz/dclass/entrance_checkpoint)
 "YY" = (
 /obj/effect/floor_decal/industrial/hatch/blue,
 /obj/structure/window/reinforced{
@@ -19520,10 +19339,6 @@
 /obj/item/handcuffs,
 /turf/simulated/floor/tiled/dark,
 /area/site53/llcz/dclass/reeducation)
-"Zv" = (
-/obj/effect/paint_stripe/red,
-/turf/simulated/wall/titanium,
-/area/site53/llcz/scp500)
 "Zw" = (
 /obj/structure/table/reinforced,
 /obj/machinery/button/blast_door{
@@ -19705,7 +19520,6 @@
 /turf/simulated/floor/tiled/monotile,
 /area/site53/llcz/dclass/luxurysleep)
 "ZW" = (
-/obj/effect/paint_stripe/red,
 /obj/machinery/button/blast_door{
 	id_tag = "Entity Cage";
 	name = "Entity Cage"
@@ -23231,14 +23045,14 @@ Vb
 Vb
 Vb
 Vb
-yo
-yo
-yo
-yo
-yo
-yo
-yo
-yo
+bI
+bI
+bI
+bI
+bI
+bI
+bI
+bI
 gq
 gq
 gq
@@ -23488,14 +23302,14 @@ Vb
 wv
 dj
 PY
-yo
+bI
 ub
-yo
+bI
 ub
-yo
+bI
 ug
 nh
-yo
+bI
 gq
 gq
 gq
@@ -23745,14 +23559,14 @@ Vb
 SI
 dj
 Zo
-yo
+bI
 uc
-yo
+bI
 uc
-yo
-yo
+bI
+bI
 uc
-yo
+bI
 gq
 gq
 gq
@@ -24002,14 +23816,14 @@ Vb
 DV
 dj
 dj
-yo
+bI
 zA
 xT
 xT
 xT
 xT
 zb
-yo
+bI
 gq
 gq
 gq
@@ -24259,14 +24073,14 @@ Vb
 No
 dj
 NK
-yo
+bI
 py
 ue
 ue
 ue
 xT
 xT
-yo
+bI
 gq
 gq
 gq
@@ -24516,15 +24330,15 @@ Vb
 Vb
 Tn
 Vb
-yo
-yo
-yo
-yo
-yo
+bI
+bI
+bI
+bI
+bI
 pH
 pH
-yo
-yo
+bI
+bI
 gq
 gq
 gq
@@ -24727,7 +24541,7 @@ KU
 KU
 KU
 KU
-NV
+KU
 Zr
 lv
 Xw
@@ -24773,7 +24587,7 @@ FG
 xT
 xT
 xT
-yo
+bI
 xT
 xS
 xS
@@ -24781,7 +24595,7 @@ EE
 xT
 xT
 xT
-yo
+bI
 gq
 gq
 gq
@@ -25038,7 +24852,7 @@ ya
 ya
 ya
 zb
-yo
+bI
 gq
 gq
 gq
@@ -25235,7 +25049,7 @@ gq
 KU
 KU
 KU
-NV
+KU
 cf
 ig
 ii
@@ -25243,9 +25057,9 @@ ch
 cc
 tR
 cB
-YX
-YX
-YX
+tR
+tR
+tR
 tR
 Zr
 Ul
@@ -25295,7 +25109,7 @@ ya
 ya
 ya
 xT
-yo
+bI
 gq
 gq
 gq
@@ -25503,7 +25317,7 @@ QZ
 IC
 IK
 IN
-YX
+tR
 RH
 iO
 rI
@@ -25542,9 +25356,9 @@ en
 en
 en
 en
-yo
-yo
-yo
+bI
+bI
+bI
 yN
 yN
 yN
@@ -25552,21 +25366,21 @@ xT
 ya
 ya
 xT
-yo
+bI
 gq
 gq
-yo
-yo
-yo
-yo
-yo
-yo
-yo
-yo
-yo
-yo
-yo
-yo
+bI
+bI
+bI
+bI
+bI
+bI
+bI
+bI
+bI
+bI
+bI
+bI
 pC
 pC
 pC
@@ -25760,7 +25574,7 @@ QZ
 QZ
 QZ
 IO
-YX
+tR
 RH
 XP
 rI
@@ -25809,10 +25623,10 @@ yY
 ya
 ya
 xT
-yo
+bI
 gq
 gq
-yo
+bI
 vl
 Hp
 wO
@@ -25823,7 +25637,7 @@ Kt
 Kv
 Kt
 Kt
-yo
+bI
 ua
 ua
 ua
@@ -26017,7 +25831,7 @@ cs
 IL
 QZ
 em
-YX
+tR
 RH
 XP
 rI
@@ -26067,9 +25881,9 @@ ya
 ya
 zb
 yC
-yo
-yo
-yo
+bI
+bI
+bI
 vn
 wJ
 wJ
@@ -26080,7 +25894,7 @@ Kt
 Kt
 Kt
 Kz
-yo
+bI
 ua
 ua
 ua
@@ -26260,11 +26074,11 @@ gq
 gq
 gq
 gq
-NV
 KU
 KU
 KU
-NV
+KU
+KU
 KU
 hS
 KU
@@ -26274,7 +26088,7 @@ IF
 QZ
 QZ
 Iq
-YX
+tR
 RH
 wt
 Sj
@@ -26337,7 +26151,7 @@ Kt
 Kt
 Kt
 Kt
-yo
+bI
 ua
 Fh
 ua
@@ -26531,7 +26345,7 @@ cu
 QZ
 QZ
 cN
-YX
+tR
 RH
 RH
 cI
@@ -26594,7 +26408,7 @@ Kt
 Kt
 Kt
 Kt
-yo
+bI
 ua
 ua
 ua
@@ -26788,7 +26602,7 @@ IG
 QZ
 QZ
 cO
-YX
+tR
 hy
 RH
 RN
@@ -26837,10 +26651,10 @@ yY
 ya
 ya
 Hv
-yo
-yo
-yo
-bH
+bI
+bI
+bI
+yC
 wJ
 xf
 wJ
@@ -26851,7 +26665,7 @@ Kt
 Kt
 Kt
 Kt
-yo
+bI
 ua
 ua
 Fh
@@ -27045,7 +26859,7 @@ IG
 yW
 cK
 IN
-YX
+tR
 hy
 RH
 SU
@@ -27090,14 +26904,14 @@ km
 kk
 km
 yM
-yo
+bI
 zt
 zu
-yo
-yo
+bI
+bI
 gq
 gq
-yo
+bI
 KI
 wJ
 wJ
@@ -27108,7 +26922,7 @@ Kt
 Kt
 Kt
 Kz
-yo
+bI
 ua
 ua
 ua
@@ -27301,8 +27115,8 @@ hV
 IG
 QZ
 cL
-YX
-YX
+tR
+tR
 hy
 RH
 LD
@@ -27347,14 +27161,14 @@ yQ
 Hk
 yM
 IM
-yo
+bI
 ya
 ya
-yo
+bI
 gq
 gq
 gq
-yo
+bI
 KJ
 wJ
 wJ
@@ -27365,7 +27179,7 @@ Kt
 Kt
 Kt
 Kt
-yo
+bI
 ua
 ua
 ua
@@ -27544,7 +27358,7 @@ gq
 gq
 gq
 gq
-NV
+KU
 KU
 KU
 KU
@@ -27558,7 +27372,7 @@ bZ
 IG
 QZ
 cL
-YX
+tR
 OW
 OW
 RH
@@ -27604,14 +27418,14 @@ at
 at
 at
 at
-yo
+bI
 ya
 ya
-yo
+bI
 gq
 gq
 gq
-yo
+bI
 wM
 wJ
 wJ
@@ -27622,7 +27436,7 @@ Kt
 Kt
 Kt
 Kt
-yo
+bI
 ua
 ua
 ua
@@ -27801,7 +27615,7 @@ gq
 gq
 gq
 gq
-bO
+Fd
 bP
 rn
 tJ
@@ -27815,7 +27629,7 @@ bZ
 IG
 QZ
 cL
-YX
+tR
 OW
 uf
 sl
@@ -27864,11 +27678,11 @@ dQ
 xy
 dy
 ya
-yo
+bI
 gq
 gq
 gq
-yo
+bI
 wJ
 wJ
 wJ
@@ -27879,7 +27693,7 @@ Kt
 Kt
 Kt
 Kt
-yo
+bI
 ua
 Fh
 ua
@@ -28058,11 +27872,11 @@ gq
 gq
 gq
 gq
-bO
+Fd
 bQ
 bY
 tL
-bO
+Fd
 KU
 KU
 hU
@@ -28072,7 +27886,7 @@ Iv
 II
 QZ
 cL
-YX
+tR
 OW
 eZ
 uf
@@ -28121,11 +27935,11 @@ Vy
 Kl
 Ui
 ya
-yo
+bI
 gq
 gq
 gq
-yo
+bI
 wJ
 wJ
 wJ
@@ -28136,7 +27950,7 @@ Kt
 Kt
 Kt
 Kt
-yo
+bI
 ua
 ua
 ua
@@ -28315,11 +28129,11 @@ gq
 gq
 gq
 gq
-bO
+Fd
 bT
 bQ
 tL
-bO
+Fd
 cc
 ex
 rh
@@ -28329,7 +28143,7 @@ Iv
 IG
 QZ
 cL
-YX
+tR
 OW
 uf
 tn
@@ -28382,7 +28196,7 @@ qu
 qu
 qu
 qu
-yo
+bI
 Dd
 yM
 KF
@@ -28393,7 +28207,7 @@ Kt
 Kt
 Kt
 Kz
-yo
+bI
 ua
 ua
 ua
@@ -28572,11 +28386,11 @@ gq
 gq
 gq
 gq
-bO
+Fd
 bU
 cb
 tL
-bO
+Fd
 cc
 ch
 rh
@@ -28586,7 +28400,7 @@ sb
 IJ
 QZ
 cM
-YX
+tR
 OW
 Wb
 OW
@@ -28639,7 +28453,7 @@ qu
 wT
 EQ
 qu
-yo
+bI
 Eg
 KA
 KG
@@ -28650,7 +28464,7 @@ Kt
 Kt
 Kt
 Kt
-yo
+bI
 ua
 ua
 ua
@@ -28829,7 +28643,7 @@ gq
 gq
 gq
 gq
-bO
+Fd
 da
 rv
 tM
@@ -28839,11 +28653,11 @@ cd
 rU
 ch
 yR
-YX
+tR
 cG
 cr
 ji
-YX
+tR
 OW
 uf
 OW
@@ -28896,7 +28710,7 @@ EF
 Hx
 wQ
 qu
-yo
+bI
 yM
 KB
 KH
@@ -28907,7 +28721,7 @@ Kt
 Kt
 Kt
 KZ
-yo
+bI
 ua
 ua
 ua
@@ -29087,19 +28901,19 @@ gq
 gq
 gq
 Fd
-bO
-bO
-bO
-bO
+Fd
+Fd
+Fd
+Fd
 cc
 ch
 hX
 ch
 ir
 Ev
-YX
+tR
 cx
-YX
+tR
 OW
 OW
 Lj
@@ -29153,7 +28967,7 @@ qu
 qu
 qu
 qu
-yo
+bI
 Eg
 KC
 KG
@@ -29164,7 +28978,7 @@ Kt
 Kt
 Kt
 Kt
-yo
+bI
 ua
 ua
 ua
@@ -29355,8 +29169,8 @@ ec
 cc
 Ev
 tR
-YX
-YX
+tR
+tR
 OW
 uf
 uf
@@ -29410,7 +29224,7 @@ qu
 wT
 vW
 qu
-yo
+bI
 EC
 KD
 KH
@@ -29421,7 +29235,7 @@ Kt
 Kt
 Kt
 Kz
-yo
+bI
 ua
 ua
 Fh
@@ -29599,18 +29413,18 @@ gq
 gq
 gq
 gq
-cQ
-cQ
-cQ
-cQ
-cQ
-cQ
-cQ
-cQ
+Ev
+Ev
+Ev
+Ev
+Ev
+Ev
+Ev
+Ev
 hY
-cQ
-cQ
-cQ
+Ev
+Ev
+Ev
 hy
 hy
 hy
@@ -29667,7 +29481,7 @@ EG
 Hy
 wQ
 qu
-yo
+bI
 yM
 IM
 KH
@@ -29678,7 +29492,7 @@ Kt
 Kx
 Kt
 Kt
-yo
+bI
 ua
 ua
 ua
@@ -29856,17 +29670,17 @@ gq
 gq
 gq
 gq
-cQ
+Ev
 cc
 cc
 cc
 tH
 cc
-cQ
+Ev
 ce
 hX
 ex
-cQ
+Ev
 hy
 hy
 hy
@@ -30113,17 +29927,17 @@ gq
 gq
 gq
 gq
-cQ
+Ev
 cc
 ch
 ch
 ch
 cF
-cQ
+Ev
 cf
 hZ
 cc
-cQ
+Ev
 hy
 hy
 hy
@@ -30370,7 +30184,7 @@ gq
 gq
 gq
 gq
-cQ
+Ev
 cc
 ch
 gt
@@ -30380,7 +30194,7 @@ if
 cd
 rV
 cc
-cQ
+Ev
 hy
 hy
 hy
@@ -30627,17 +30441,17 @@ gq
 gq
 gq
 gq
-cQ
+Ev
 cc
 ch
 hX
 ch
 cF
-cQ
+Ev
 cc
 Tl
 cc
-cQ
+Ev
 hy
 hy
 hy
@@ -30884,17 +30698,17 @@ gq
 gq
 gq
 gq
-cQ
+Ev
 cc
 ec
 hX
 ec
 cc
-cQ
+Ev
 cc
 fC
 cc
-cQ
+Ev
 hy
 hy
 hy
@@ -30941,7 +30755,7 @@ tj
 HB
 pG
 wP
-OH
+zp
 gq
 gq
 gq
@@ -31141,17 +30955,17 @@ gq
 gq
 gq
 gq
-cQ
-cQ
-cQ
+Ev
+Ev
+Ev
 hY
-cQ
-cQ
-cQ
-cQ
-cQ
-cQ
-cQ
+Ev
+Ev
+Ev
+Ev
+Ev
+Ev
+Ev
 hy
 hy
 hy
@@ -31198,7 +31012,7 @@ tj
 xX
 Me
 xX
-OH
+zp
 gq
 gq
 gq
@@ -31399,11 +31213,11 @@ gq
 gq
 gq
 hy
-cQ
+Ev
 ex
 hX
 ex
-cQ
+Ev
 hy
 hy
 hy
@@ -31452,17 +31266,17 @@ uf
 uf
 uf
 tj
-OH
-OH
-OH
-OH
+zp
+zp
+zp
+zp
 HJ
 HJ
 HJ
-gM
+UT
 lS
 lS
-gM
+UT
 gq
 gq
 gq
@@ -31656,11 +31470,11 @@ gq
 gq
 gq
 gq
-cQ
+Ev
 Xy
 hX
 cc
-cQ
+Ev
 hy
 hy
 hy
@@ -31716,14 +31530,14 @@ uf
 HC
 HR
 DR
-gM
+UT
 lS
 If
-gM
-gM
-gM
-gM
-gM
+UT
+UT
+UT
+UT
+UT
 UT
 UT
 Gs
@@ -31913,11 +31727,11 @@ gq
 gq
 gq
 gq
-cQ
+Ev
 cf
 hZ
 cc
-cQ
+Ev
 hy
 hy
 hy
@@ -31977,7 +31791,7 @@ lj
 lm
 lm
 UI
-gM
+UT
 xn
 Yq
 xx
@@ -32170,11 +31984,11 @@ gq
 gq
 gq
 gq
-cQ
+Ev
 cc
 hX
 cc
-cQ
+Ev
 hy
 hy
 hy
@@ -32230,7 +32044,7 @@ sj
 DI
 HL
 HT
-gM
+UT
 ln
 lS
 lS
@@ -32427,11 +32241,11 @@ gq
 gq
 gq
 gq
-cQ
+Ev
 cc
 hX
 cc
-cQ
+Ev
 hy
 hy
 PE
@@ -32487,15 +32301,15 @@ EV
 HD
 HM
 HU
-gM
+UT
 lo
 lS
 lS
-gM
-gM
-gM
-gM
-gM
+UT
+UT
+UT
+UT
+UT
 UT
 UT
 UT
@@ -32684,11 +32498,11 @@ gq
 gq
 gq
 gq
-cQ
+Ev
 vd
 ia
 cv
-cQ
+Ev
 hy
 hy
 PE
@@ -32698,7 +32512,7 @@ eH
 PE
 hy
 hy
-jb
+Hf
 Mx
 Ut
 ID
@@ -32748,7 +32562,7 @@ iL
 lp
 lS
 or
-gM
+UT
 ua
 ua
 ua
@@ -32941,11 +32755,11 @@ gq
 gq
 gq
 gq
-cQ
+Ev
 ec
 hX
 fC
-cQ
+Ev
 hy
 hy
 PE
@@ -32955,7 +32769,7 @@ WG
 PE
 hy
 hy
-jb
+Hf
 IB
 bA
 Tk
@@ -33005,7 +32819,7 @@ iM
 SY
 lS
 Fo
-gM
+UT
 ua
 ua
 ua
@@ -33184,26 +32998,26 @@ gq
 gq
 gq
 gq
-cQ
-cQ
-cQ
-cQ
-cQ
-cQ
-cQ
+Ev
+Ev
+Ev
+Ev
+Ev
+Ev
+Ev
 gq
 gq
 gq
 gq
 gq
 gq
-cQ
-cQ
-cQ
+Ev
+Ev
+Ev
 hY
-cQ
-cQ
-cQ
+Ev
+Ev
+Ev
 hy
 PE
 eN
@@ -33212,7 +33026,7 @@ gr
 PE
 hy
 hy
-jb
+Hf
 wl
 IS
 df
@@ -33262,7 +33076,7 @@ iL
 lb
 lS
 lX
-gM
+UT
 ua
 ua
 ua
@@ -33441,26 +33255,26 @@ gq
 gq
 gq
 gq
-cQ
+Ev
 cc
 cc
 tH
 cc
 cc
-cQ
-cQ
-cQ
-cQ
-cQ
-cQ
-cQ
-cQ
+Ev
+Ev
+Ev
+Ev
+Ev
+Ev
+Ev
+Ev
 cc
 ex
 hX
 ex
 cc
-cQ
+Ev
 fm
 PE
 PE
@@ -33468,12 +33282,12 @@ eW
 PE
 PE
 PE
-jb
-jb
-jb
-jb
-jb
-jb
+Hf
+Hf
+Hf
+Hf
+Hf
+Hf
 Nv
 TF
 Ga
@@ -33515,11 +33329,11 @@ EV
 HG
 HO
 HY
-gM
+UT
 JC
 lS
 ae
-gM
+UT
 ua
 ua
 ua
@@ -33698,26 +33512,26 @@ gq
 gq
 gq
 gq
-cQ
+Ev
 vd
 ch
 ch
 ch
 cc
-cQ
+Ev
 EK
 cv
 cc
 cc
 cc
 cF
-cQ
+Ev
 cc
 ch
 hX
 ch
 cc
-cQ
+Ev
 gw
 IV
 rE
@@ -33734,7 +33548,7 @@ Ek
 rE
 rE
 tS
-sf
+Ks
 rR
 nF
 bg
@@ -33776,7 +33590,7 @@ ut
 lt
 lS
 an
-gM
+UT
 ua
 ua
 ua
@@ -33955,7 +33769,7 @@ gq
 gq
 gq
 gq
-cQ
+Ev
 MG
 ch
 cJ
@@ -33991,7 +33805,7 @@ El
 Gx
 sO
 vh
-sf
+Ks
 cY
 cY
 cY
@@ -34033,7 +33847,7 @@ iQ
 SY
 QS
 aq
-gM
+UT
 ua
 ua
 ua
@@ -34212,7 +34026,7 @@ gq
 gq
 gq
 gq
-cQ
+Ev
 cc
 ch
 cW
@@ -34248,7 +34062,7 @@ Em
 fD
 tZ
 Dv
-sf
+Ks
 kO
 dT
 dT
@@ -34290,7 +34104,7 @@ ut
 lb
 lS
 aF
-gM
+UT
 ua
 ua
 ua
@@ -34469,27 +34283,27 @@ gq
 gq
 gq
 gq
-cQ
+Ev
 cc
 cc
 dx
 cc
 cF
-cQ
-cQ
-cQ
-cQ
-cQ
-cQ
-cQ
-cQ
-cQ
-cQ
+Ev
+Ev
+Ev
+Ev
+Ev
+Ev
+Ev
+Ev
+Ev
+Ev
 ql
-cQ
-cQ
-cQ
-Tm
+Ev
+Ev
+Ev
+dk
 dk
 dk
 fI
@@ -34505,7 +34319,7 @@ rQ
 je
 rE
 Dx
-sf
+Ks
 kO
 EU
 dV
@@ -34543,11 +34357,11 @@ EV
 HH
 HO
 Ib
-gM
+UT
 lu
 lS
 Fp
-gM
+UT
 ua
 ua
 ua
@@ -34726,13 +34540,13 @@ gq
 gq
 gq
 gq
-cQ
-cQ
-cQ
+Ev
+Ev
+Ev
 dM
-cQ
-cQ
-cQ
+Ev
+Ev
+Ev
 lG
 lG
 lG
@@ -34762,7 +34576,7 @@ eD
 je
 rE
 Dx
-sf
+Ks
 kO
 dO
 dW
@@ -34804,7 +34618,7 @@ uu
 Fn
 lS
 rO
-gM
+UT
 ua
 ua
 ua
@@ -34983,12 +34797,12 @@ gq
 gq
 gq
 gq
-cQ
-cQ
+Ev
+Ev
 ce
 dx
 cc
-cQ
+Ev
 lG
 lG
 zL
@@ -35019,7 +34833,7 @@ JR
 je
 rE
 Dx
-sf
+Ks
 kO
 dP
 dV
@@ -35061,7 +34875,7 @@ ll
 SY
 lS
 Fr
-gM
+UT
 ua
 ua
 ua
@@ -35240,12 +35054,12 @@ gq
 gq
 gq
 gq
-cQ
-cQ
+Ev
+Ev
 cf
 dR
 cc
-cQ
+Ev
 lG
 eq
 JO
@@ -35276,7 +35090,7 @@ pQ
 iu
 gx
 Dz
-sf
+Ks
 kO
 ed
 dX
@@ -35304,7 +35118,7 @@ sN
 vH
 Fk
 Jq
-xo
+xd
 iK
 iS
 kT
@@ -35318,7 +35132,7 @@ uu
 lb
 lS
 rP
-gM
+UT
 ua
 ua
 ua
@@ -35498,11 +35312,11 @@ gq
 aN
 aN
 aN
-cQ
+Ev
 lI
 aU
 cc
-cQ
+Ev
 lG
 nu
 JO
@@ -35533,8 +35347,8 @@ BV
 je
 rE
 jY
-sf
-sf
+Ks
+Ks
 fA
 fA
 fA
@@ -35571,11 +35385,11 @@ sj
 DI
 HQ
 Id
-gM
+UT
 lw
 lS
 rb
-gM
+UT
 ua
 ua
 ua
@@ -35759,7 +35573,7 @@ ci
 ci
 eL
 cc
-cQ
+Ev
 lG
 JO
 JO
@@ -35780,8 +35594,8 @@ dk
 cU
 dk
 dk
-sf
-sf
+Ks
+Ks
 rQ
 gy
 Hn
@@ -35790,7 +35604,7 @@ rQ
 NT
 lG
 DA
-sf
+Ks
 ha
 hf
 fA
@@ -35828,11 +35642,11 @@ sj
 DI
 HL
 HT
-gM
+UT
 ln
 lS
 lS
-gM
+UT
 ua
 ua
 ua
@@ -36012,11 +35826,11 @@ gq
 aN
 hu
 aN
-cQ
+Ev
 cc
 Tl
 cc
-cQ
+Ev
 lG
 yU
 JO
@@ -36038,7 +35852,7 @@ ee
 bo
 dk
 dk
-sf
+Ks
 rQ
 rQ
 rQ
@@ -36046,7 +35860,7 @@ rQ
 rQ
 db
 lG
-Ko
+fd
 Rk
 wK
 Rk
@@ -36089,7 +35903,7 @@ lk
 lS
 lS
 Om
-gM
+UT
 ua
 ua
 ua
@@ -36269,11 +36083,11 @@ gq
 aN
 kq
 aN
-cQ
+Ev
 cc
 cw
 cc
-cQ
+Ev
 lG
 eq
 bW
@@ -36303,7 +36117,7 @@ iq
 iq
 tp
 lG
-Ko
+fd
 JD
 Uj
 NA
@@ -36340,13 +36154,13 @@ HJ
 Ja
 HJ
 HJ
-gM
-gM
-gM
-gM
+UT
+UT
+UT
+UT
 IZ
-gM
-gM
+UT
+UT
 ua
 ua
 ua
@@ -36526,11 +36340,11 @@ gq
 aN
 hu
 aN
-cQ
-cQ
-cQ
-cQ
-cQ
+Ev
+Ev
+Ev
+Ev
+Ev
 lG
 lG
 lG
@@ -36560,7 +36374,7 @@ rJ
 rJ
 GU
 lG
-Ko
+fd
 Kr
 hb
 gu
@@ -36603,7 +36417,7 @@ lS
 Wt
 lS
 lS
-gM
+UT
 ua
 ua
 ua
@@ -36817,7 +36631,7 @@ lG
 lG
 lG
 lG
-Ko
+fd
 qv
 hb
 gu
@@ -36856,11 +36670,11 @@ zw
 HJ
 Jb
 lS
-gM
-gM
-gM
-gM
-gM
+UT
+UT
+UT
+UT
+UT
 ua
 ua
 ua
@@ -37074,7 +36888,7 @@ Gr
 Gr
 Gr
 Gr
-Ko
+fd
 qv
 hb
 gu
@@ -37113,7 +36927,7 @@ DI
 HJ
 lS
 lS
-gM
+UT
 ua
 ua
 ua
@@ -37367,10 +37181,10 @@ gF
 CG
 Ig
 IX
-gM
+UT
 lS
 lS
-gM
+UT
 ua
 ua
 ua
@@ -37624,10 +37438,10 @@ gF
 lS
 rG
 lS
-gM
+UT
 lS
 lS
-gM
+UT
 ua
 ua
 ua
@@ -37877,14 +37691,14 @@ pC
 pC
 pC
 pC
-gM
+UT
 Rr
 CF
 lS
 IZ
 lS
 Vf
-gM
+UT
 ua
 ua
 ua
@@ -38134,14 +37948,14 @@ ua
 ua
 ua
 ua
-gM
+UT
 IY
 zv
 lS
 IZ
 lS
 lS
-gM
+UT
 ua
 ua
 ua
@@ -38391,14 +38205,14 @@ ua
 ua
 ua
 ua
-gM
+UT
 lS
 lS
 lS
-gM
+UT
 Jd
 Wn
-gM
+UT
 ua
 ua
 ua
@@ -38648,14 +38462,14 @@ ua
 Fh
 Fh
 ua
-gM
+UT
 eO
 Je
 ZZ
-gM
-gM
-gM
-gM
+UT
+UT
+UT
+UT
 ua
 ua
 ua
@@ -38905,11 +38719,11 @@ ua
 Fh
 Fh
 ua
-gM
-gM
-gM
-gM
-gM
+UT
+UT
+UT
+UT
+UT
 ua
 ua
 ua
@@ -41414,10 +41228,10 @@ ua
 ua
 ua
 bh
-xp
-xp
+tl
+tl
 jw
-xp
+tl
 ua
 ua
 ua
@@ -41670,7 +41484,7 @@ pC
 ua
 Fh
 ua
-xp
+tl
 iv
 jj
 xC
@@ -41931,7 +41745,7 @@ xs
 xC
 xC
 xC
-xp
+tl
 FW
 ua
 ua
@@ -42188,7 +42002,7 @@ bh
 iF
 jt
 zn
-xp
+tl
 ua
 ua
 ua
@@ -42287,10 +42101,10 @@ ua
 ua
 ua
 ua
-xp
-xp
-xp
-xp
+tl
+tl
+tl
+tl
 ua
 ua
 ua
@@ -42441,11 +42255,11 @@ pC
 ua
 ua
 ua
-xp
-xp
+tl
+tl
 jw
-xp
-xp
+tl
+tl
 ua
 Fh
 Fh
@@ -42544,10 +42358,10 @@ ua
 ua
 ua
 ua
-xp
+tl
 xt
 zn
-xp
+tl
 ua
 ua
 ua
@@ -42804,7 +42618,7 @@ ua
 xs
 xC
 zq
-xp
+tl
 ua
 ua
 ua
@@ -43058,10 +42872,10 @@ ua
 ua
 ua
 ua
-xp
-xp
-xp
-xp
+tl
+tl
+tl
+tl
 ua
 Fh
 ua
@@ -46042,11 +45856,11 @@ Uz
 Uz
 am
 aN
-aX
-aX
-aX
-aX
-aX
+aY
+aY
+aY
+aY
+aY
 pC
 ua
 ua
@@ -46282,13 +46096,13 @@ gq
 gq
 gq
 gq
-aW
-aW
-aW
-aW
-aW
-aW
-aW
+aY
+aY
+aY
+aY
+aY
+aY
+aY
 aN
 aN
 ac
@@ -46299,11 +46113,11 @@ Nt
 Nt
 aN
 aN
-aX
+aY
 yb
 Co
 Cu
-aX
+aY
 pC
 ua
 ua
@@ -46539,28 +46353,28 @@ gq
 gq
 gq
 gq
-aW
+aY
 ao
-aW
+aY
 ay
 aw
 ax
 aL
-aW
+aY
 xz
 kt
 Nt
 Jt
 qB
 iz
-aW
-aW
-aW
-aX
+aY
+aY
+aY
+aY
 Ag
 Cp
 Cv
-aX
+aY
 pC
 ua
 ua
@@ -46796,9 +46610,9 @@ gq
 gq
 gq
 ad
-aW
+aY
 ap
-aW
+aY
 ah
 ah
 ah
@@ -46812,12 +46626,12 @@ gH
 gH
 rj
 SH
-aW
-aX
+aY
+aY
 BO
 Cp
 Cw
-aX
+aY
 pC
 ua
 Fh
@@ -47069,12 +46883,12 @@ ah
 ah
 rm
 Ng
-aW
-aX
+aY
+aY
 Cc
 Cp
 Cx
-aX
+aY
 pC
 ua
 ua
@@ -47323,15 +47137,15 @@ fy
 ah
 ah
 ah
-aW
+aY
 ro
-aW
-aW
-aX
-aX
+aY
+aY
+aY
+aY
 Cq
-aX
-aX
+aY
+aY
 pC
 pC
 pC
@@ -47587,12 +47401,12 @@ rs
 as
 ah
 ah
-aZ
-aZ
-aZ
-aZ
-aZ
-aZ
+aY
+aY
+aY
+aY
+aY
+aY
 pC
 ua
 ua
@@ -47844,12 +47658,12 @@ rt
 th
 Cg
 ur
-aZ
+aY
 aI
 aR
 aO
 Cz
-aZ
+aY
 pC
 ua
 ua
@@ -48106,7 +47920,7 @@ CA
 CA
 CA
 CB
-aZ
+aY
 pC
 ua
 ua
@@ -48363,7 +48177,7 @@ CA
 CA
 CA
 CB
-aZ
+aY
 pC
 ua
 ua
@@ -48615,12 +48429,12 @@ tb
 um
 Cj
 Zi
-aZ
+aY
 Cz
 Cz
 Cz
 Cz
-aZ
+aY
 pC
 ua
 ua
@@ -48872,12 +48686,12 @@ tc
 aT
 ah
 ah
-aZ
-aZ
-aZ
-aZ
-aZ
-aZ
+aY
+aY
+aY
+aY
+aY
+aY
 pC
 ua
 Fh
@@ -49122,10 +48936,10 @@ fy
 ah
 ah
 ah
-aW
+aY
 re
-aW
-aW
+aY
+aY
 aY
 aY
 Cr
@@ -49382,7 +49196,7 @@ ah
 ah
 ah
 SH
-aW
+aY
 aY
 Ck
 Cs
@@ -49622,10 +49436,10 @@ gq
 gq
 gq
 gq
-aW
-aW
+aY
+aY
 ap
-aW
+aY
 ah
 ah
 ah
@@ -49639,7 +49453,7 @@ ah
 ah
 aT
 Ng
-aW
+aY
 aY
 Cl
 Cs
@@ -49880,23 +49694,23 @@ gq
 gq
 gq
 gq
-aW
+aY
 ar
-aW
+aY
 au
 az
 az
 au
-aW
-aW
+aY
+aY
 di
-aW
-aW
+aY
+aY
 js
 LG
-aW
-aW
-aW
+aY
+aY
+aY
 aY
 Cm
 Cs
@@ -50137,21 +49951,21 @@ gq
 gq
 gq
 gq
-aW
-aW
-aW
-aW
-aW
-aW
-aW
-aW
+aY
+aY
+aY
+aY
+aY
+aY
+aY
+aY
 ot
 fO
 ot
-aW
-aW
-aW
-aW
+aY
+aY
+aY
+aY
 gq
 gq
 aY
@@ -58866,13 +58680,13 @@ gq
 gq
 gq
 gq
-Zv
-Zv
-Zv
-Zv
-Zv
-Zv
-Zv
+Bi
+Bi
+Bi
+Bi
+Bi
+Bi
+Bi
 gq
 gq
 gq
@@ -59123,13 +58937,13 @@ gq
 gq
 gq
 gq
-Zv
+Bi
 LC
 Gz
 tA
 Gz
 LC
-Zv
+Bi
 gq
 gq
 gq
@@ -59380,13 +59194,13 @@ gq
 gq
 gq
 gq
-Zv
+Bi
 TR
 FJ
 LN
 Lk
 TR
-Zv
+Bi
 gq
 gq
 gq
@@ -59637,7 +59451,7 @@ gq
 gq
 gq
 gq
-Zv
+Bi
 jk
 XT
 Rf
@@ -59894,13 +59708,13 @@ gq
 gq
 gq
 gq
-Zv
+Bi
 TR
 lZ
 VH
 YY
 TR
-Zv
+Bi
 gq
 gq
 gq
@@ -60151,13 +59965,13 @@ gq
 gq
 gq
 gq
-Zv
+Bi
 UV
 eU
 Pf
 eU
 Os
-Zv
+Bi
 gq
 gq
 gq
@@ -60408,13 +60222,13 @@ gq
 gq
 gq
 gq
-Zv
-Zv
-Zv
+Bi
+Bi
+Bi
 WM
-Zv
+Bi
 TI
-Zv
+Bi
 gq
 gq
 gq
@@ -60667,11 +60481,11 @@ gq
 gq
 gq
 gq
-Zv
+Bi
 YL
 WO
 yZ
-Zv
+Bi
 gq
 gq
 gq
@@ -60924,11 +60738,11 @@ gq
 gq
 gq
 gq
-Zv
+Bi
 Pt
 WO
 yZ
-Zv
+Bi
 gq
 gq
 gq
@@ -61179,13 +60993,13 @@ gq
 gq
 gq
 gq
-Zv
-Zv
-Zv
+Bi
+Bi
+Bi
 WM
-Zv
+Bi
 NP
-Zv
+Bi
 gq
 gq
 gq
@@ -61436,13 +61250,13 @@ gq
 gq
 gq
 gq
-Zv
+Bi
 of
 Ve
 Pt
 wU
 nX
-Zv
+Bi
 gq
 gq
 gq
@@ -61693,13 +61507,13 @@ gq
 gq
 gq
 gq
-Zv
+Bi
 SD
 Vw
 Vw
 Vw
 RX
-Zv
+Bi
 gq
 gq
 gq
@@ -61950,13 +61764,13 @@ gq
 gq
 gq
 gq
-Zv
+Bi
 TR
 Vw
 Od
 Vw
 As
-Zv
+Bi
 gq
 gq
 gq
@@ -62207,13 +62021,13 @@ gq
 gq
 gq
 gq
-Zv
-Zv
+Bi
+Bi
 QV
-Zv
-Zv
+Bi
+Bi
 xv
-Zv
+Bi
 gq
 gq
 gq
@@ -62464,13 +62278,13 @@ gq
 gq
 gq
 gq
-Zv
+Bi
 FI
 WC
 Ae
 CS
 Hj
-Zv
+Bi
 gq
 gq
 gq
@@ -62721,13 +62535,13 @@ gq
 gq
 gq
 gq
-Zv
+Bi
 uY
 Hg
 Fq
 OB
 MP
-Zv
+Bi
 gq
 gq
 gq
@@ -62978,13 +62792,13 @@ gq
 gq
 gq
 gq
-Zv
+Bi
 VC
 Ne
 VK
 oz
 ye
-Zv
+Bi
 gq
 gq
 gq
@@ -63235,13 +63049,13 @@ gq
 gq
 gq
 gq
-Zv
-Zv
+Bi
+Bi
 QV
-Zv
-Zv
+Bi
+Bi
 ks
-Zv
+Bi
 gq
 gq
 gq
@@ -63492,13 +63306,13 @@ gq
 gq
 gq
 gq
-Zv
+Bi
 pA
 Vw
 Vw
 Vw
 yt
-Zv
+Bi
 gq
 gq
 gq
@@ -63749,13 +63563,13 @@ gq
 gq
 gq
 gq
-Zv
+Bi
 KR
 Vw
 Vw
 Vw
 ZB
-Zv
+Bi
 gq
 gq
 gq
@@ -64006,13 +63820,13 @@ gq
 gq
 gq
 gq
-Zv
+Bi
 PA
 Vw
 Vw
 Ik
 WY
-Zv
+Bi
 gq
 gq
 gq
@@ -64264,12 +64078,12 @@ gq
 gq
 gq
 Bi
-Zv
-Zv
-Zv
+Bi
+Bi
+Bi
 ok
-Zv
-Zv
+Bi
+Bi
 gq
 gq
 gq
@@ -66353,11 +66167,11 @@ BI
 BI
 BI
 mK
-ra
-ra
-ra
+ot
+ot
+ot
 Eo
-ra
+ot
 gq
 gq
 gq
@@ -66614,7 +66428,7 @@ nJ
 nP
 nP
 fO
-ra
+ot
 gq
 gq
 gq
@@ -66867,11 +66681,11 @@ BI
 BI
 BI
 mK
-ra
-ra
-ra
+ot
+ot
+ot
 fP
-ra
+ot
 gq
 gq
 gq
@@ -67126,9 +66940,9 @@ mK
 qr
 qn
 gq
-ra
+ot
 fO
-ra
+ot
 gq
 gq
 gq
@@ -67383,9 +67197,9 @@ qn
 qn
 qn
 gq
-ra
+ot
 fO
-ra
+ot
 sF
 sF
 sF
@@ -67640,9 +67454,9 @@ gq
 gq
 gq
 gq
-ra
+ot
 fO
-ra
+ot
 ep
 ep
 ep
@@ -67886,20 +67700,20 @@ gq
 gq
 gq
 gq
-ra
-ra
-ra
-ra
-ra
-ra
+ot
+ot
+ot
+ot
+ot
+ot
 gq
 gq
 gq
 gq
 gq
-ra
+ot
 fO
-ra
+ot
 ep
 ep
 sF
@@ -68143,20 +67957,20 @@ gq
 gq
 gq
 gq
-ra
+ot
 om
 om
 vy
 Su
-ra
+ot
 gq
 gq
 gq
 gq
 gq
-ra
+ot
 fO
-ra
+ot
 ep
 sy
 sF
@@ -68400,20 +68214,20 @@ gq
 gq
 gq
 gq
-ra
+ot
 LB
 om
 om
 Su
-ra
+ot
 gq
 gq
 gq
 gq
 gq
-ra
+ot
 fO
-ra
+ot
 sw
 ep
 ep
@@ -68657,18 +68471,18 @@ gq
 gq
 gq
 gq
-ra
+ot
 om
 om
 om
 Su
-ra
+ot
 gq
 gq
 gq
 gq
 gq
-ra
+ot
 qj
 sd
 sx
@@ -68905,29 +68719,29 @@ gq
 gq
 gq
 gq
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
+ot
+ot
+ot
+ot
+ot
+ot
+ot
+ot
+ot
+ot
 om
 om
 om
 om
-ra
+ot
 gq
 gq
 gq
 gq
 gq
-ra
+ot
 qQ
-ra
+ot
 sF
 sF
 sF
@@ -69162,7 +68976,7 @@ gq
 gq
 gq
 gq
-ra
+ot
 om
 om
 om
@@ -69176,15 +68990,15 @@ om
 om
 om
 om
-ra
+ot
 gq
 gq
 gq
 gq
 gq
-ra
+ot
 qQ
-ra
+ot
 gq
 gq
 gq
@@ -69419,7 +69233,7 @@ gq
 gq
 gq
 gq
-ra
+ot
 om
 nO
 nS
@@ -69433,15 +69247,15 @@ nS
 nS
 Vd
 om
-ra
+ot
 gq
 gq
 gq
 gq
 gq
-ra
+ot
 rc
-ra
+ot
 gq
 gq
 gq
@@ -69676,7 +69490,7 @@ gq
 gq
 gq
 gq
-ra
+ot
 om
 oj
 om
@@ -69690,15 +69504,15 @@ om
 om
 oj
 om
-ra
+ot
 gq
 gq
 gq
 gq
 gq
-ra
+ot
 qQ
-ra
+ot
 gq
 gq
 gq
@@ -69933,7 +69747,7 @@ gq
 gq
 gq
 gq
-ra
+ot
 om
 nQ
 om
@@ -69947,15 +69761,15 @@ rN
 om
 nQ
 om
-ra
+ot
 gq
 gq
 gq
 gq
 gq
-ra
+ot
 qQ
-ra
+ot
 gq
 gq
 gq
@@ -70190,29 +70004,29 @@ gq
 gq
 gq
 gq
-ra
+ot
 om
 nQ
 od
-ra
-ra
+ot
+ot
 JH
 JH
 JH
-ra
-ra
+ot
+ot
 Px
 nQ
 om
-ra
+ot
 gq
 gq
 gq
 gq
 gq
-ra
+ot
 qQ
-ra
+ot
 gq
 gq
 gq
@@ -70447,30 +70261,30 @@ gq
 gq
 gq
 gq
-ra
+ot
 om
 nQ
 om
-ra
-ra
+ot
+ot
 om
 JH
 om
-ra
-ra
+ot
+ot
 om
 nQ
 om
-ra
+ot
 gq
 gq
 gq
-ra
-ra
-ra
+ot
+ot
+ot
 rp
-ra
-ra
+ot
+ot
 gq
 gq
 gq
@@ -70704,8 +70518,8 @@ qn
 qn
 qn
 qn
-ra
-ra
+ot
+ot
 nQ
 om
 JH
@@ -70718,16 +70532,16 @@ JH
 om
 nQ
 om
-ra
-ra
-ra
-ra
-ra
+ot
+ot
+ot
+ot
+ot
 qa
 qc
 qQ
 Qp
-ra
+ot
 gq
 gq
 gq
@@ -70962,7 +70776,7 @@ mK
 mK
 BI
 mK
-ra
+ot
 nQ
 om
 om
@@ -70979,12 +70793,12 @@ Qy
 Qy
 Kp
 Ky
-ra
+ot
 qc
 qc
 qQ
 Pb
-ra
+ot
 gq
 gq
 gq
@@ -71219,7 +71033,7 @@ YM
 mK
 BI
 mK
-ra
+ot
 xi
 om
 JH
@@ -71232,16 +71046,16 @@ JH
 om
 nQ
 yg
-ra
-ra
-ra
+ot
+ot
+ot
 Qn
 Kp
 OV
 OV
 Ll
 Pb
-ra
+ot
 gq
 gq
 gq
@@ -71476,7 +71290,7 @@ nK
 qo
 qI
 qr
-ra
+ot
 nQ
 om
 om
@@ -71489,16 +71303,16 @@ om
 om
 nQ
 Js
-ra
+ot
 gq
-ra
-ra
-ra
+ot
+ot
+ot
 TO
 To
 rH
 Pb
-ra
+ot
 gq
 gq
 gq
@@ -71733,7 +71547,7 @@ Wr
 mK
 qK
 mK
-ra
+ot
 nQ
 om
 JH
@@ -71746,16 +71560,16 @@ JH
 om
 nQ
 Js
-ra
+ot
 gq
 gq
 gq
-ra
+ot
 qd
 qi
 rM
 sD
-ra
+ot
 gq
 gq
 gq
@@ -71951,7 +71765,7 @@ oV
 oV
 gh
 oV
-zr
+SV
 SV
 Oc
 SV
@@ -71990,29 +71804,29 @@ mK
 mK
 qK
 mK
-ra
+ot
 nQ
 om
-ra
-ra
+ot
+ot
 om
 JH
 om
-ra
-ra
+ot
+ot
 om
 nQ
 Js
-ra
+ot
 gq
 gq
 gq
-ra
+ot
 Hu
 rd
 rd
 rH
-ra
+ot
 gq
 gq
 gq
@@ -72247,29 +72061,29 @@ qn
 qn
 uv
 qn
-ra
+ot
 nQ
 od
-ra
-ra
+ot
+ot
 JH
 JH
 JH
-ra
-ra
+ot
+ot
 Px
 nQ
 Js
-ra
+ot
 gq
 gq
 gq
-ra
+ot
 vA
 rd
 rd
 rH
-ra
+ot
 gq
 gq
 gq
@@ -72517,16 +72331,16 @@ vy
 om
 nQ
 Js
-ra
+ot
 gq
 gq
 gq
-ra
+ot
 qf
 rd
 rd
 rH
-ra
+ot
 gq
 gq
 gq
@@ -72774,16 +72588,16 @@ om
 om
 oj
 Js
-ra
+ot
 gq
 gq
 gq
-ra
+ot
 qg
 rd
 rd
 rH
-ra
+ot
 gq
 gq
 gq
@@ -73031,16 +72845,16 @@ nS
 nS
 SR
 Js
-ra
+ot
 gq
 gq
 gq
-ra
+ot
 qh
 rd
 rd
 rH
-ra
+ot
 gq
 gq
 gq
@@ -73288,20 +73102,20 @@ su
 su
 su
 SK
-ra
+ot
 gq
 gq
 gq
-ra
-ra
-ra
-ra
+ot
+ot
+ot
+ot
 sE
-ra
-ra
-ra
-ra
-ra
+ot
+ot
+ot
+ot
+ot
 gq
 gq
 gq
@@ -73532,24 +73346,24 @@ qn
 qn
 qJ
 qn
-ra
+ot
 kC
-ra
+ot
 ov
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
-ra
+ot
+ot
+ot
+ot
+ot
+ot
+ot
+ot
+ot
+ot
 gq
 gq
 gq
-ra
+ot
 Uc
 rd
 rd
@@ -73558,7 +73372,7 @@ qS
 qS
 qU
 rd
-ra
+ot
 gq
 gq
 gq
@@ -73806,16 +73620,16 @@ gq
 gq
 gq
 gq
-ra
-ra
-ra
-ra
-ra
+ot
+ot
+ot
+ot
+ot
 rd
 rd
 uy
 rd
-ra
+ot
 gq
 gq
 gq
@@ -74067,12 +73881,12 @@ gq
 gq
 gq
 gq
-ra
+ot
 rd
 rd
 uy
 rd
-ra
+ot
 gq
 gq
 gq
@@ -74324,12 +74138,12 @@ gq
 gq
 gq
 gq
-ra
+ot
 rd
 rd
 uy
 rd
-ra
+ot
 gq
 gq
 gq
@@ -74581,12 +74395,12 @@ gq
 gq
 gq
 gq
-ra
+ot
 rd
 rd
 uy
 rd
-ra
+ot
 gq
 gq
 gq
@@ -74838,12 +74652,12 @@ gq
 gq
 gq
 gq
-ra
+ot
 rd
 rd
 uy
 rd
-ra
+ot
 gq
 gq
 gq
@@ -75095,12 +74909,12 @@ gq
 gq
 gq
 gq
-ra
+ot
 rd
 rd
 qY
 rd
-ra
+ot
 gq
 gq
 gq
@@ -75352,12 +75166,12 @@ gq
 gq
 gq
 gq
-ra
-ra
-ra
+ot
+ot
+ot
 ox
-ra
-ra
+ot
+ot
 gq
 gq
 gq
