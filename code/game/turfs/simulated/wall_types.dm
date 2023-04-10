@@ -154,8 +154,8 @@
 /turf/simulated/wall/growth/New(newloc)
 	..(newloc, MATERIAL_GROWTH)
 
-///turf/simulated/wall/concrete/New(newloc)
-//	..(newloc,MATERIAL_CONCRETE)
+/turf/simulated/wall/concrete/New(newloc)
+	..(newloc,MATERIAL_CONCRETE)
 
 //Alien metal walls
 /turf/simulated/wall/alium
@@ -187,18 +187,3 @@
 	else if(istype(W, /turf/simulated/wall))
 		return 1
 	return 0
-
-/turf/simulated/wall/concrete
-
-/turf/simulated/wall/concrete/New(newloc)
-	..(newloc, "concrete1")
-
-/turf/simulated/wall/concrete/on_update_icon()
-	. = ..()
-	stripe_color = null
-	update_icon()
-
-/material/steel/concrete
-	name = "concrete1"
-	icon_base = "_solid"
-	icon_colour = "#ffffff"
